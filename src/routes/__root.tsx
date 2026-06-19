@@ -87,8 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Lovable App" },
       { name: "twitter:description", content: "Expedition Elevated elevates a motorcycle rental site into a premium guided expedition brand." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781882398445-elephant.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781882398445-elephant.webp" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8b4bf5b9-da5d-43d3-9ef8-4527b7e3fe5b/id-preview-58228603--c66999fb-a92b-43c6-b7de-31546ff95a45.lovable.app-1781852064516.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8b4bf5b9-da5d-43d3-9ef8-4527b7e3fe5b/id-preview-58228603--c66999fb-a92b-43c6-b7de-31546ff95a45.lovable.app-1781852064516.png" },
     ],
     links: [
       {
