@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { em } from "./data";
+import { Logo } from "./Logo";
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,12 +24,7 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <a href="/" className="flex items-center gap-3 shrink-0" aria-label={em.brand.name}>
-          <img
-            src={em.brand.logo}
-            alt={`${em.brand.name} logo`}
-            className="h-9 w-auto brightness-0 invert"
-            loading="eager"
-          />
+          <Logo className="text-xl text-ivory sm:text-2xl" />
         </a>
 
         <nav className="hidden xl:flex items-center gap-8 text-[11px] font-medium uppercase tracking-[0.22em] text-ivory/75">

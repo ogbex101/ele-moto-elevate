@@ -1,4 +1,5 @@
 import { em } from "./data";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -6,12 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1400px]">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
-            <img
-              src={em.brand.logo}
-              alt={em.brand.name}
-              className="h-10 w-auto brightness-0 invert"
-              loading="lazy"
-            />
+            <Logo className="text-2xl text-ivory" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-muted-foreground">
               Premium guided motorcycle expeditions through Colombia and beyond. Official BMW Motorrad
               partner since 2014. Founded by Mauricio Escobar.
