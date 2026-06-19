@@ -43,8 +43,9 @@ export function FilmShowcase() {
           preload="metadata"
           aria-label="Elephant Moto expedition film"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/10 to-background" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/15 to-transparent" />
       </motion.div>
 
       <div className="relative z-10 mx-auto flex h-full max-w-[1400px] flex-col justify-end px-6 pb-20 lg:px-10 lg:pb-28">
@@ -53,7 +54,7 @@ export function FilmShowcase() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.4em] text-primary"
+          className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.4em] text-primary drop-shadow-[0_1px_6px_rgba(0,0,0,0.9)]"
         >
           <span className="h-px w-10 bg-primary" />
           Watch · The Film
@@ -64,11 +65,11 @@ export function FilmShowcase() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-4xl font-display text-5xl font-bold uppercase leading-[0.95] tracking-tight text-ivory sm:text-6xl lg:text-7xl"
+          className="mt-6 max-w-4xl font-display text-5xl font-bold uppercase leading-[0.95] tracking-tight text-ivory drop-shadow-[0_2px_14px_rgba(0,0,0,0.6)] sm:text-6xl lg:text-7xl"
         >
           This is what
           <br />
-          <span className="bg-gradient-to-r from-ivory via-primary to-ember bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-amber-300 via-primary to-ember bg-clip-text text-transparent drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)]">
             we ride for.
           </span>
         </motion.h2>

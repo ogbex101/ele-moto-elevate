@@ -21,6 +21,7 @@ export function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/15 to-background" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
       </motion.div>
 
       <motion.div
@@ -31,7 +32,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-          className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.4em] text-primary"
+          className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.4em] text-primary drop-shadow-[0_1px_6px_rgba(0,0,0,0.85)]"
         >
           <span className="h-px w-10 bg-primary" />
           Official BMW Motorrad Partner • Since 2014
@@ -41,11 +42,11 @@ export function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-5xl font-display text-5xl font-bold uppercase leading-[0.92] tracking-tight text-ivory sm:text-7xl lg:text-8xl"
+          className="mt-6 max-w-5xl font-display text-5xl font-bold uppercase leading-[0.92] tracking-tight text-ivory drop-shadow-[0_2px_14px_rgba(0,0,0,0.5)] sm:text-7xl lg:text-8xl"
         >
           The Andes,
           <br />
-          <span className="bg-gradient-to-r from-ivory via-primary to-ember bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-amber-300 via-primary to-ember bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(0,0,0,0.65)]">
             On Two Wheels.
           </span>
         </motion.h1>
