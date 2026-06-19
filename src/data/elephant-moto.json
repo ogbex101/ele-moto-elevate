@@ -1,0 +1,166 @@
+{
+  "brand": {
+    "name": "Elephant Moto",
+    "tagline": "Premium Motorcycle Expeditions in Colombia",
+    "founded": 2014,
+    "phone": "+57 318 362 1661",
+    "email": "micho@elephantmoto.com",
+    "hours": "Mon–Sat 9:00–17:00",
+    "founder": "Mauricio Escobar",
+    "logo": "https://elephantmoto.com/wp-content/uploads/2024/08/66Recurso-1.svg",
+    "bmwPartnerBadge": "https://elephantmoto.com/wp-content/uploads/2024/08/66ryRecurso-2.svg",
+    "bmwMotorradLogo": "https://elephantmoto.com/wp-content/uploads/2024/08/Capa-2.svg",
+    "bmwMotorradAlt": "https://elephantmoto.com/wp-content/uploads/2024/08/4Recurso-1-1.svg",
+    "favicon": "https://elephantmoto.com/wp-content/uploads/2025/04/cropped-FaviconElephant-1-32x32.png",
+    "socials": {
+      "instagram": "https://www.instagram.com/elephantmotoco",
+      "facebook": "https://www.facebook.com/elephantmotoco/",
+      "youtube": "https://www.youtube.com/channel/UCFTu19tdUfypMBtPlFfHMXA"
+    }
+  },
+  "photos": {
+    "hero": "https://elephantmoto.com/wp-content/uploads/2025/02/em2.jpg",
+    "lineup": "https://elephantmoto.com/wp-content/uploads/2024/08/elephant_moto1-1024x683.jpg",
+    "ig": [
+      "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/707555783_18599232220042652_2701055632584643770_nfull.jpg",
+      "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/702306744_868435466279974_4123736221449215082_nfull.jpg",
+      "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/700387114_18596481520042652_7163031222762638382_nfull.jpg",
+      "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/685915304_992274033360312_3319223747853110398_nfull.jpg"
+    ]
+  },
+  "nav": [
+    { "label": "Premium Tours", "href": "/#expeditions" },
+    { "label": "Destinations", "href": "/#destinations" },
+    { "label": "Why Elephant Moto", "href": "/#why" },
+    { "label": "BMW Partnership", "href": "/#bmw" },
+    { "label": "Stories", "href": "/#stories" },
+    { "label": "Rentals", "href": "/#rentals" },
+    { "label": "Training", "href": "/#training" },
+    { "label": "Contact", "href": "/#contact" }
+  ],
+  "trust": [
+    { "value": "Official", "label": "BMW Motorrad Partner" },
+    { "value": "10+", "label": "Years Guiding Expeditions" },
+    { "value": "40+", "label": "Nationalities of Riders" },
+    { "value": "2,300", "label": "km Per Colombia Expedition" },
+    { "value": "4,200", "label": "m Maximum Elevation" }
+  ],
+  "tours": [
+    {
+      "slug": "colombia-10-days-dual-purpose",
+      "name": "Colombia • Dual Purpose",
+      "subtitle": "10 days through the Andes — pavement, dirt, and the soul of Colombia.",
+      "days": 10,
+      "distanceKm": 2300,
+      "difficulty": "Intermediate / Advanced",
+      "region": "Colombia",
+      "surface": "60% paved • 40% dirt",
+      "price": 6500,
+      "priceLabel": "$6,500 USD / rider",
+      "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/685915304_992274033360312_3319223747853110398_nfull.jpg",
+      "highlights": ["Villa de Leyva", "Barichara", "Chicamocha Canyon", "Coffee region", "Hot-springs hotel"],
+      "url": "https://elephantmoto.com/colombia-10-days-dual-purpose/",
+      "tags": ["dirt", "mountain", "cultural", "high-altitude"]
+    },
+    {
+      "slug": "colombia-10-days-paved",
+      "name": "Colombia • Paved Routes",
+      "subtitle": "10 days of pristine asphalt through colonial mountain towns.",
+      "days": 10,
+      "distanceKm": 2300,
+      "difficulty": "Beginner / Intermediate",
+      "region": "Colombia",
+      "surface": "100% paved",
+      "price": 5800,
+      "priceLabel": "From $5,800 USD / rider",
+      "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/702306744_868435466279974_4123736221449215082_nfull.jpg",
+      "highlights": ["Bogotá", "Medellín rest day", "Barichara", "Coffee plantations", "Boutique hotels"],
+      "url": "https://elephantmoto.com/colombia-10-days-paved/",
+      "tags": ["paved", "comfort", "cultural", "scenic"]
+    },
+    {
+      "slug": "morocco-elephant-moto",
+      "name": "Morocco Elephant Moto",
+      "subtitle": "Atlas Mountains, kasbahs and the edge of the Sahara.",
+      "days": 12,
+      "distanceKm": 2800,
+      "difficulty": "Intermediate",
+      "region": "Morocco",
+      "surface": "Mixed paved & desert tracks",
+      "price": 0,
+      "priceLabel": "On request",
+      "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/700387114_18596481520042652_7163031222762638382_nfull.jpg",
+      "highlights": ["Marrakech", "Ait Ben Haddou", "Boumalne Dades", "Atlas Mountains", "Sahara dunes"],
+      "url": "https://elephantmoto.com/morocco-elephant-moto/",
+      "tags": ["desert", "international", "cultural", "dirt"]
+    },
+    {
+      "slug": "enduro-park-andalusia-tour",
+      "name": "Enduro Park Andalusia",
+      "subtitle": "BMW-certified off-road training in southern Spain.",
+      "days": 7,
+      "distanceKm": 600,
+      "difficulty": "All levels",
+      "region": "Spain",
+      "surface": "Off-road training facility",
+      "price": 0,
+      "priceLabel": "On request",
+      "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/707555783_18599232220042652_2701055632584643770_nfull.jpg",
+      "highlights": ["BMW Enduro Park", "Certified instruction", "Andalusian routes", "R 1300 GS"],
+      "url": "https://elephantmoto.com/enduro-park-andalusia-tour/",
+      "tags": ["training", "dirt", "international"]
+    },
+    {
+      "slug": "create-a-custom-tour",
+      "name": "Custom Private Expedition",
+      "subtitle": "A bespoke route designed around your group, dates and ambition.",
+      "days": -1,
+      "distanceKm": 0,
+      "difficulty": "Tailored",
+      "region": "Colombia / Costa Rica",
+      "surface": "Designed to taste",
+      "price": 0,
+      "priceLabel": "Bespoke",
+      "image": "https://elephantmoto.com/wp-content/uploads/2025/02/em2.jpg",
+      "highlights": ["Private group", "Your route", "Your pace", "Concierge logistics"],
+      "url": "https://elephantmoto.com/create-a-custom-tour/",
+      "tags": ["paved", "dirt", "cultural", "comfort", "custom"]
+    }
+  ],
+  "rentals": [
+    { "model": "BMW R 1300 GS", "pricePerDay": 240, "image": "https://elephantmoto.com/wp-content/uploads/2024/08/elephant_moto1-1024x683.jpg", "blurb": "Flagship adventure — the most capable GS BMW has ever built." },
+    { "model": "BMW F 900 GS", "pricePerDay": 210, "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/700387114_18596481520042652_7163031222762638382_nfull.jpg", "blurb": "Agile mid-weight. The sweet spot for technical Andean terrain." },
+    { "model": "BMW F 800 GS", "pricePerDay": 195, "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/702306744_868435466279974_4123736221449215082_nfull.jpg", "blurb": "Confident, forgiving, and perfectly sized for two-up touring." }
+  ],
+  "destinations": [
+    { "name": "Bogotá", "kind": "Start / Finish", "coord": [24, 52] },
+    { "name": "Villa de Leyva", "kind": "Colonial heritage", "coord": [28, 46] },
+    { "name": "Barichara", "kind": "Stone-paved village", "coord": [34, 40] },
+    { "name": "Chicamocha Canyon", "kind": "Andean canyon", "coord": [37, 44] },
+    { "name": "Coffee Region", "kind": "Plantation routes", "coord": [18, 56] },
+    { "name": "Medellín", "kind": "City of eternal spring", "coord": [14, 48] },
+    { "name": "Murillo / Los Nevados", "kind": "4,200 m páramo", "coord": [20, 52] }
+  ],
+  "stories": [
+    { "name": "James K.", "origin": "Texas, USA", "bike": "R 1300 GS", "quote": "This wasn't a vacation, it was a mission. From Bogotá to the 4,200 m pass above Murillo, Elephant Moto's logistics let us focus entirely on the road.", "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/707555783_18599232220042652_2701055632584643770_nfull.jpg" },
+    { "name": "Marc V.", "origin": "Brussels, Belgium", "bike": "F 900 GS", "quote": "Mauricio and his team unlocked parts of Colombia no tourist will ever see. Twelve days, one brotherhood.", "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/702306744_868435466279974_4123736221449215082_nfull.jpg" },
+    { "name": "Julian V.", "origin": "Sydney, Australia", "bike": "R 1300 GS", "quote": "Factory-fresh bikes, certified guiding, and lodging that felt earned after every ride. The Elephant standard is real.", "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/700387114_18596481520042652_7163031222762638382_nfull.jpg" },
+    { "name": "Ana R.", "origin": "Madrid, Spain", "bike": "F 800 GS", "quote": "I joined the BMW Travel Experience in Andalusia and came home a better rider. Then booked Colombia.", "image": "https://elephantmoto.com/wp-content/uploads/sb-instagram-feed-images/685915304_992274033360312_3319223747853110398_nfull.jpg" }
+  ],
+  "timeline": [
+    { "year": "2014", "title": "Founded in Bogotá", "body": "Mauricio Escobar opens Elephant Moto with a small fleet of BMW GS motorcycles and a guide book for Colombia." },
+    { "year": "2017", "title": "BMW Motorrad Official Partner", "body": "Recognized as the official BMW Motorrad partner for guided expeditions in Colombia." },
+    { "year": "2019", "title": "School of Riding", "body": "Launches certified ON-road and OFF-road training programs led by BMW Motorrad-certified instructors." },
+    { "year": "2022", "title": "International Expansion", "body": "Operations begin in Costa Rica; international expeditions launched to Morocco and Andalusia." },
+    { "year": "2025", "title": "BMW Travel Experience", "body": "Selected by BMW Motorrad Colombia to deliver the official R 1300 GS Travel Experience to its top customers." },
+    { "year": "Today", "title": "40+ Nationalities", "body": "Riders from over forty countries have ridden with Elephant Moto." }
+  ],
+  "faq": [
+    { "q": "How experienced do I need to be?", "a": "Our paved expeditions welcome confident street riders. Our dual-purpose tours expect intermediate off-road experience on a maxi-trail bike. If you're unsure, we'll recommend prep training at our BMW-certified School of Riding." },
+    { "q": "What's included in the expedition price?", "a": "Guided motorcycle rental on the GS of your choice, all accommodations (boutique hotels and a natural hot-springs lodge on the dual-purpose tour), most meals, certified lead guide and support vehicle, fuel, and tolls." },
+    { "q": "Which BMW models can I ride?", "a": "Our maintained fleet is built around the BMW R 1300 GS ($240/day), F 900 GS ($210/day), and F 800 GS ($195/day). All bikes are current-generation and serviced by BMW-trained technicians." },
+    { "q": "Can I bring a passenger?", "a": "Yes. Most expeditions accept a pillion at a reduced rate, on bikes equipped for two-up touring (R 1300 GS recommended). Single-room accommodation upgrades are available." },
+    { "q": "What about insurance and safety?", "a": "Every expedition includes a certified lead guide, a support vehicle following the route, and BMW Motorrad-grade pre-trip safety briefings. Riders bring their own personal travel insurance; we provide rider-equipment guidance ahead of departure." },
+    { "q": "Do you operate outside Colombia?", "a": "Yes — we run annual expeditions to Morocco, training weeks at the BMW Enduro Park in Andalusia (Spain), and operate in Costa Rica." }
+  ]
+}
