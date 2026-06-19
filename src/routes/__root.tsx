@@ -87,8 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Lovable App" },
       { name: "twitter:description", content: "Expedition Elevated elevates a motorcycle rental site into a premium guided expedition brand." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781883464813-elephant.webp" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781883464813-elephant.webp" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781883932562-elephant.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Kbw33eBeukcBuCie6LVRtjbSzek1/social-images/social-1781883932562-elephant.webp" },
     ],
     links: [
       {
