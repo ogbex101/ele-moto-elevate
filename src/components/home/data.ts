@@ -1,4 +1,4 @@
-import emData from "@/data/elephant-moto.json";
+import emData from "../../data/elephant-moto.json";
 
 export const em = emData as unknown as {
   brand: {
