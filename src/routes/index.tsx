@@ -4,6 +4,7 @@ import { Hero } from "@/components/home/Hero";
 import { TrustBar } from "@/components/home/TrustBar";
 import { Expeditions } from "@/components/home/Expeditions";
 import { WhyColombia } from "@/components/home/WhyColombia";
+import { FilmShowcase } from "@/components/home/FilmShowcase";
 import { BMWPartnership } from "@/components/home/BMWPartnership";
 import { Stories } from "@/components/home/Stories";
 import { TourFinder } from "@/components/home/TourFinder";
@@ -51,6 +52,7 @@ function Index() {
         <TrustBar />
         <Expeditions />
         <WhyColombia />
+        <FilmShowcase />
         <BMWPartnership />
         <Stories />
         <TourFinder />
