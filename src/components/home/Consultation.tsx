@@ -5,12 +5,48 @@ import { SectionEyebrow } from "./SectionEyebrow";
 
 export function Consultation() {
   const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
   const [form, setForm] = useState({
     name: "",
     email: "",
     interest: "Tours",
     message: "",
   });
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus("sending");
+    const endpoint = import.meta.env.VITE_CONTACT_ENDPOINT as string | undefined;
+    try {
+      if (endpoint) {
+        const res = await fetch(endpoint, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            name: form.name,
+            email: form.email,
+            interest: form.interest,
+            message: form.message,
+            _subject: `New expedition inquiry — ${form.name}`,
+          }),
+        });
+        if (!res.ok) throw new Error("Request failed");
+      } else {
+        // No endpoint configured yet: open the visitor's mail client so the lead
+        // still reaches us. Set VITE_CONTACT_ENDPOINT (e.g. a Formspree URL) to
+        // capture submissions automatically instead.
+        const subject = encodeURIComponent(`Expedition inquiry — ${form.name}`);
+        const body = encodeURIComponent(
+          `Name: ${form.name}\nEmail: ${form.email}\nInterest: ${form.interest}\n\n${form.message}`,
+        );
+        window.location.href = `mailto:${em.brand.email}?subject=${subject}&body=${body}`;
+      }
+      setStatus("idle");
+      setSent(true);
+    } catch {
+      setStatus("error");
+    }
+  }
 
   return (
     <section
@@ -72,10 +108,7 @@ export function Consultation() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.7 }}
-          onSubmit={(e) => {
-            e.preventDefault();
-            setSent(true);
-          }}
+          onSubmit={handleSubmit}
           className="border border-border bg-card/80 p-8 backdrop-blur-xl md:p-12"
         >
           {sent ? (
@@ -155,10 +188,20 @@ export function Consultation() {
               </div>
               <button
                 type="submit"
-                className="mt-10 inline-flex w-full items-center justify-center gap-3 bg-primary px-8 py-5 text-xs font-bold uppercase tracking-[0.3em] text-primary-foreground transition-colors hover:bg-ember sm:w-auto"
+                disabled={status === "sending"}
+                className="mt-10 inline-flex w-full items-center justify-center gap-3 bg-primary px-8 py-5 text-xs font-bold uppercase tracking-[0.3em] text-primary-foreground transition-colors hover:bg-ember disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
               >
-                Send Inquiry →
+                {status === "sending" ? "Sending…" : "Send Inquiry →"}
               </button>
+              {status === "error" && (
+                <p className="mt-4 text-sm text-ember">
+                  Something went wrong sending your message. Please email{" "}
+                  <a href={`mailto:${em.brand.email}`} className="underline hover:text-primary">
+                    {em.brand.email}
+                  </a>{" "}
+                  directly.
+                </p>
+              )}
             </>
           )}
         </motion.form>

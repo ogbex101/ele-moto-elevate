@@ -24,7 +24,7 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-8 px-6 lg:px-10">
         <a href="/" className="flex items-center gap-3 shrink-0" aria-label={em.brand.name}>
-          <Logo className="text-xl text-ivory sm:text-2xl" />
+          <Logo className="h-7 text-xl text-ivory sm:h-9 sm:text-2xl" />
         </a>
 
         <nav className="hidden xl:flex items-center gap-8 text-[11px] font-medium uppercase tracking-[0.22em] text-ivory/75">

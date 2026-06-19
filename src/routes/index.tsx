@@ -6,6 +6,7 @@ import { Expeditions } from "@/components/home/Expeditions";
 import { WhyColombia } from "@/components/home/WhyColombia";
 import { FilmShowcase } from "@/components/home/FilmShowcase";
 import { BMWPartnership } from "@/components/home/BMWPartnership";
+import { Guides } from "@/components/home/Guides";
 import { Stories } from "@/components/home/Stories";
 import { TourFinder } from "@/components/home/TourFinder";
 import { Destinations } from "@/components/home/Destinations";
@@ -54,6 +55,7 @@ function Index() {
         <WhyColombia />
         <FilmShowcase />
         <BMWPartnership />
+        <Guides />
         <Stories />
         <TourFinder />
         <Destinations />
